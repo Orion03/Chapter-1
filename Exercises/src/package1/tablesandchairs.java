@@ -22,10 +22,10 @@ public class tablesandchairs {
 	public static void displayTruck() {
 		System.out.println("  /XXXXXXXXXXXXXXXXXX");
 		System.out.println("/XXXXXXXXXXXXXXXXXXXX");
-		System.out.println("XX   XXXXXX \TACO/ XX");
+		System.out.println("XX   XXXXXX  TACO  XX");
 		System.out.println("XX   XXXXXX--------XX");
 		System.out.println("XXXXXXXXXXXXXXXXXXXXX");
-		System.out.println("XXX/OO\XXXXXXXXX/OO\X");
+		System.out.println("XXX OO XXXXXXXXX OO X");
 		System.out.println("XXX OO XXXXXXXXX OO X");
 	
 
