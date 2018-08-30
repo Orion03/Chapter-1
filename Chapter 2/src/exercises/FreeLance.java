@@ -22,8 +22,9 @@ public class FreeLance {
 		System.out.println("Please enter your name >> ");
 		name = input.next();
 		
+		System.out.println("Your total is " + total);
+		total = num1 + num2;
 		System.out.println("Your name is " + name);
-		
 
 	}
 
