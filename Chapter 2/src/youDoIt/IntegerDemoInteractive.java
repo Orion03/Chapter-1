@@ -28,7 +28,7 @@ public class IntegerDemoInteractive {
 		aLong = input.nextLong();
 		
 		System.out.println("What is your name >> ");
-		name = input.nextLine();
+		name = input.next();
 		
 		System.out.println("Your name is " + name);
 		
