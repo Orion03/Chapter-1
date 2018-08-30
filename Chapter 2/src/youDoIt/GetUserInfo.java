@@ -13,6 +13,8 @@ public class GetUserInfo {
 		name = inputDevice.nextLine();
 		System.out.println("Please enter your age");
 		age = inputDevice.nextInt();
+		System.out.println("Your name is " + name + "and you are " + age + "years old.");
+		
 
 	}
 
