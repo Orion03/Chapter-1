@@ -10,13 +10,15 @@ public class FreeLance {
 		int num2;
 		int total;
 		
+		String name;
+		
 
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please enter your first number >> ");
-		num1 = input.nextLine();
+		num1 = input.nextInt();
 		System.out.println("Please enter your second number >> ");
-		num2 = input.nextLine();
+		num2 = input.nextInt();
 		
 
 	}
