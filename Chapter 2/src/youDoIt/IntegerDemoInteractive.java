@@ -16,16 +16,16 @@ public class IntegerDemoInteractive {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please enter an interger >> ");
-		anInt = nextInt();
+		anInt = input.nextInt();
 		
 		System.out.println("Please enter an interger >> ");
-		aByte = nextByte();
+		aByte = input.nextByte();
 		
 		System.out.println("Please enter an interger >> ");
-		aShort = nextShort();
+		aShort = input.nextShort();
 		
 		System.out.println("Please enter an interger >> ");
-		aLong = nextLong();
+		aLong = input.nextLong();
 		
 		System.out.println("What is your name >> ");
 		name = input.nextLine();
