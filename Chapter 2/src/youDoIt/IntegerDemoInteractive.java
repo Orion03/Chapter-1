@@ -18,13 +18,13 @@ public class IntegerDemoInteractive {
 		System.out.println("Please enter an interger >> ");
 		anInt = input.nextInt();
 		
-		System.out.println("Please enter an interger >> ");
+		System.out.println("Please enter a byte >> ");
 		aByte = input.nextByte();
 		
-		System.out.println("Please enter an interger >> ");
+		System.out.println("Please enter a short >> ");
 		aShort = input.nextShort();
 		
-		System.out.println("Please enter an interger >> ");
+		System.out.println("Please enter a long >> ");
 		aLong = input.nextLong();
 		
 		System.out.println("What is your name >> ");
