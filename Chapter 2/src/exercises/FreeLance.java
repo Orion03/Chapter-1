@@ -19,6 +19,10 @@ public class FreeLance {
 		num1 = input.nextInt();
 		System.out.println("Please enter your second number >> ");
 		num2 = input.nextInt();
+		System.out.println("Please enter your name >> ");
+		name = input.next();
+		
+		System.out.println("Your name is " + name);
 		
 
 	}
