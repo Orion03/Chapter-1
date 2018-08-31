@@ -20,6 +20,10 @@ public class ArithmeticDemo {
 		System.out.print("Please enter another integer >> ");
 		secondNumber = input.nextInt();
 		
+		sum = firstNumber + secondNumber;
+		difference = firstNumber - secondNumber;
+		average = sum / 2;
+		
 		
 		
 
