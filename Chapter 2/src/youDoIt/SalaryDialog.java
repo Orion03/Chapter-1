@@ -14,7 +14,7 @@ public class SalaryDialog {
 		
 		final double HOURS_IN_WEEK = 37.5;
 		
-		wageString = JOptionPane.showInputDialog();
+		wageString = JOptionPane.showInputDialog(null, "Enter employee's hourly wage", "");
 		
 
 	}
