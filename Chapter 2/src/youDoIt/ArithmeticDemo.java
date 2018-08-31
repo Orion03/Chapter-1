@@ -24,6 +24,9 @@ public class ArithmeticDemo {
 		difference = firstNumber - secondNumber;
 		average = sum / 2;
 		
+		System.out.println(firstNumber + " + " + secondNumber + " is " + sum);
+		System.out.println(firstNumber + " - " + secondNumber + " is " + difference);
+		System.out.println("The average of " + firstNumber + " and " + secondNumber + " is " + average);
 		
 		
 
