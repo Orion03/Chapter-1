@@ -11,6 +11,7 @@ public class SalaryDialog {
 		
 		double wage;
 		double weeklyPay;
+		int dependents;
 		
 		final double HOURS_IN_WEEK = 37.5;
 		
@@ -22,10 +23,10 @@ public class SalaryDialog {
 		dependentString = JOptionPane.showInputDialog(null, "How many dependents?"
 				, "Salary Dialog 2", JOptionPane.QUESTION_MESSAGE);
 		
-		dependent = Integer.parseInt(dependentString);
+		dependents = Integer.parseInt(dependentString);
 		
 		JOptionPane.showMessageDialog(null, "Weekly salary is $" + weeklyPay + 
-				"\nDeductions will be made for" + dependent + "dependents.");
+				"\nDeductions will be made for " + dependents + "dependents.");
 	}
 
 }
