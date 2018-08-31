@@ -6,23 +6,23 @@ public class ArithmeticDemo3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double firstNumber;
-		double secondNumber;
-		double sum;
-		double difference;
+		int firstNumber;
+		int secondNumber;
+		int sum;
+		int difference;
 		double average;
 		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Please enter an integer >> ");
-		firstNumber = input.nextDouble();
+		firstNumber = input.nextInt();
 		
 		System.out.print("Please enter another integer >> ");
-		secondNumber = input.nextDouble();
+		secondNumber = input.nextInt();
 		
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
-		average = sum / 2;
+		average = (double) sum / 2;
 		
 		System.out.println(firstNumber + " + " + secondNumber + " is " + sum);
 		System.out.println(firstNumber + " - " + secondNumber + " is " + difference);
