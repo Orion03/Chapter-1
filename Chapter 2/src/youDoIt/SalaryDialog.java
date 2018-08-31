@@ -19,7 +19,10 @@ public class SalaryDialog {
 		
 		weeklyPay = Double.parseDouble(wageString) * HOURS_IN_WEEK;
 		
-		dependentString = JOptionPane.showInputDialog(null, "How many dependents");
+		dependentString = JOptionPane.showInputDialog(null, "How many dependents?"
+				, "Salary Dialog 2", JOptionPane.QUESTION_MESSAGE);
+		
+		
 	}
 
 }
