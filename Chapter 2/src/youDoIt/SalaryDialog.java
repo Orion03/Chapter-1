@@ -6,6 +6,11 @@ public class SalaryDialog {
 		// TODO Auto-generated method stub
 		String wageString;
 		String dependentString;
+		
+		double wage;
+		double weeklyPay;
+		
+		final double HOURS_IN_WEEK = 37.5;
 
 	}
 
