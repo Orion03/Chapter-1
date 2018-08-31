@@ -14,6 +14,13 @@ public class ArithmeticDemo {
 		
 		Scanner input = new Scanner(System.in);
 		
+		System.out.print("Please enter an integer >> ");
+		firstNumber = input.nextInt();
+		
+		System.out.print("Please enter another integer >> ");
+		secondNumber = input.nextInt();
+		
+		
 		
 
 	}
