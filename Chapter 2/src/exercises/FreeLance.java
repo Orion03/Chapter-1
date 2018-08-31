@@ -23,7 +23,6 @@ public class FreeLance {
 		name = input.next();
 		
 		System.out.println("Your total is " + Total);
-		Total = num1 + num2;
 		System.out.println("Your name is " + name);
 
 	}
