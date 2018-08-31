@@ -22,6 +22,8 @@ public class SalaryDialog {
 		dependentString = JOptionPane.showInputDialog(null, "How many dependents?"
 				, "Salary Dialog 2", JOptionPane.QUESTION_MESSAGE);
 		
+		dependent = Integer.parseInt(dependentString);
+		
 		
 	}
 
