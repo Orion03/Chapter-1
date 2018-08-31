@@ -26,7 +26,7 @@ public class SalaryDialog {
 		dependents = Integer.parseInt(dependentString);
 		
 		JOptionPane.showMessageDialog(null, "Weekly salary is $" + weeklyPay + 
-				"\nDeductions will be made for " + dependents + "dependents.");
+				"\nDeductions will be made for " + dependents + " dependents.");
 	}
 
 }
