@@ -16,7 +16,7 @@ public class SalaryDialog {
 		
 		wageString = JOptionPane.showInputDialog(null, "Enter employee's hourly wage",
 				"Salary Dialog 1", JOptionPane.INFORMATION_MESSAGE);
-		weeklyPay = Double.parseDouble(wageString);
+		weeklyPay = Double.parseDouble(wageString) * HOURS_IN_WEEK;
 		
 		
 
