@@ -6,11 +6,11 @@ public class ArithmeticDemo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int firstNumber;
-		int secondNumber;
-		int sum;
-		int difference;
-		int average;
+		double firstNumber;
+		double secondNumber;
+		double sum;
+		double difference;
+		double average;
 		
 		Scanner input = new Scanner(System.in);
 		
