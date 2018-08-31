@@ -1,5 +1,7 @@
 package youDoIt;
 
+import javax.swing.JOptionPane;
+
 public class SalaryDialog {
 
 	public static void main(String[] args) {
@@ -11,6 +13,9 @@ public class SalaryDialog {
 		double weeklyPay;
 		
 		final double HOURS_IN_WEEK = 37.5;
+		
+		wageString = JOptionPane.showInputDialog();
+		
 
 	}
 
