@@ -8,7 +8,7 @@ public class FreeLance {
 		// TODO Auto-generated method stub
 		int num1;
 		int num2;
-		int total;
+		int Total;
 		
 		String name;
 		
@@ -22,8 +22,8 @@ public class FreeLance {
 		System.out.println("Please enter your name >> ");
 		name = input.next();
 		
-		System.out.println("Your total is " + total);
-		total = num1 + num2;
+		System.out.println("Your total is " + Total);
+		Total = num1 + num2;
 		System.out.println("Your name is " + name);
 
 	}
