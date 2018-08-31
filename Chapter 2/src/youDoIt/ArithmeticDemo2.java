@@ -15,10 +15,10 @@ public class ArithmeticDemo2 {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Please enter an integer >> ");
-		firstNumber = input.nextInt();
+		firstNumber = input.nextDouble();
 		
 		System.out.print("Please enter another integer >> ");
-		secondNumber = input.nextInt();
+		secondNumber = input.nextDouble();
 		
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
