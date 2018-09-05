@@ -18,7 +18,7 @@ public class Eggs {
 		
 		int RemainingEggs = NumberOfEggs % 12;
 		
-		
+		System.out.println("You ordered a total of " + NumberOfEggs + " eggs. That's ")
 		
 	}
 
