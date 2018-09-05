@@ -22,7 +22,8 @@ public class Initials {
 		System.out.println("What is your last initial >> ");
 		Initial3 = input.next();
 		
-		
+		System.out.println("Your initials are " + Initial1 + "." + Initial2 + "." + Initial3 + 
+				".");
 
 	}
 
