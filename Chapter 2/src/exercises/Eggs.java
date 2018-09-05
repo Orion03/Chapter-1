@@ -12,10 +12,11 @@ public class Eggs {
 		double SingularEgg = .45;
 		double DozenOfEggs = 3.25;
 		int NumberOfEggs;
-		int RemainingEggs = NumberOfEggs % 12;
 		
 		System.out.println("Insert the amount of eggs you have >> ");
 		NumberOfEggs = input.nextInt();
+		
+		int RemainingEggs = NumberOfEggs % 12;
 		
 		
 		
