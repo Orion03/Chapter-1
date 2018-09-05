@@ -9,6 +9,12 @@ public class Dollars {
 		
 		Scanner input = new Scanner(System.in);
 		
+		int NumberOfDollars;
+		int TwentyDollars = 20;
+		int TenDollars = 10;
+		int FiveDollars = 5;
+		int OneDollar = 1;
+		
 		
 	}
 
