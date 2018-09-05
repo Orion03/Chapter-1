@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class NauticalMiles {
+public class NauticalMilesInteractive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
