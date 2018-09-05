@@ -12,13 +12,16 @@ public class Eggs {
 		double SingularEgg = .45;
 		double DozenOfEggs = 3.25;
 		int NumberOfEggs;
+		int Dozen = 12;
 		
 		System.out.println("Insert the amount of eggs you have >> ");
 		NumberOfEggs = input.nextInt();
 		
 		int RemainingEggs = NumberOfEggs % 12;
 		
-		System.out.println("You ordered a total of " + NumberOfEggs + " eggs. That's ")
+		System.out.println("You ordered a total of " + NumberOfEggs + " eggs. That's " + 
+		NumberOfEggs / Dozen + " dozen at 3.25 per dozen and " + NumberOfEggs + 
+		" loose eggs at 45 cents each for a total of " + );
 		
 	}
 
