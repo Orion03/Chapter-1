@@ -12,6 +12,7 @@ public class Eggs {
 		double SingularEgg = .45;
 		double DozenOfEggs = 3.25;
 		
+		System.out.println("Insert the amount of eggs you have >> ");
 		
 
 	}
