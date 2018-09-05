@@ -18,10 +18,11 @@ public class Eggs {
 		NumberOfEggs = input.nextInt();
 		
 		int RemainingEggs = NumberOfEggs % 12;
+		double Total = (RemainingEggs * 0.45) + ((NumberOfEggs / Dozen) * 3.25);
 		
 		System.out.println("You ordered a total of " + NumberOfEggs + " eggs. That's " + 
 		NumberOfEggs / Dozen + " dozen at $3.25 per dozen and " + RemainingEggs + 
-		" loose eggs at 45 cents each for a total of ");
+		" loose eggs at 45 cents each for a total of $" + Total);
 		
 	}
 
