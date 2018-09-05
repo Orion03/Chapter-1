@@ -18,11 +18,9 @@ public class InchesToFeetInteractive {
 		int InchesToFeet = Inches / Feet;
 		int RemainingInches = Inches % Feet;
 		
-		System.out.println("If something needs " + Inches " inches it needs " + InchesToFeet + " feet with a remaining " + RemainingInches + 
+		System.out.println("If something needs " + Inches + " inches it needs " + InchesToFeet + " feet with a remaining " + RemainingInches + 
 				" Inches.");
 		
-		
-
 	}
 
 }
