@@ -9,6 +9,9 @@ public class ChiliToGo {
 		
 		Scanner input = new Scanner(System.in);
 		
+		int AdultMealPrice = 7;
+		int ChildMealPrice = 4;
+		
 		
 	}
 
