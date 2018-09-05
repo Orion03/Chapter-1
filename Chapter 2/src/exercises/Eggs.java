@@ -1,6 +1,6 @@
 package exercises;
 
-import java.util.Scanner
+import java.util.Scanner;
 
 public class Eggs {
 
@@ -11,10 +11,13 @@ public class Eggs {
 		
 		double SingularEgg = .45;
 		double DozenOfEggs = 3.25;
+		int NumberOfEggs;
 		
 		System.out.println("Insert the amount of eggs you have >> ");
+		NumberOfEggs = input.nextInt();
 		
-
+		
+		
 	}
 
 }
