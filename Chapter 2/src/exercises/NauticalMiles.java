@@ -7,7 +7,7 @@ public class NauticalMiles {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		double NauticalMile;
+		int NauticalMile;
 		
 		Scanner input = new Scanner(System.in);
 		
