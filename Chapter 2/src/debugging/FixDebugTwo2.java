@@ -9,6 +9,7 @@ public class FixDebugTwo2 {
 		a = 7;
 		b = 4;
 		
+		System.out.println("The sum is " + (a + b));
 		
 	}
 
