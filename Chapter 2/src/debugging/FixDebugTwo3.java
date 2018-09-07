@@ -9,6 +9,7 @@ public class FixDebugTwo3 {
 		long c = 7777777777777L;
 		result = a % b;
 		
+		System.out.println("Divide " + a + " by " + b);
 		
 		
 	}
