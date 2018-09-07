@@ -23,9 +23,10 @@ public class Sans {
 		System.out.println("    X       X  XXXX  X       X    ");
 		System.out.println("    X     XX   XXXX   XX     X    ");
 		System.out.println("   X    X      XXXX      X    X   ");
-		System.out.println("   X    XX              XX    X   ");
-		System.out.println("   X  XXX XX          XX XXX  X   ");
-		System.out.println("")
+		System.out.println("   X    XX               XX   X   ");
+		System.out.println("   X  XXX XX           XXXXX  X   ");
+		System.out.println("   X    X X XXXXXXXXXXX XX    X   ");
+		System.out.println("           X   X   X  X X")
 		
 
 	}
