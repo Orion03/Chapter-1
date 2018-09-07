@@ -12,6 +12,8 @@ public class FixDebugTwo3 {
 		System.out.println("Divide " + a + " by " + b);
 		System.out.println("The remainder is " + result);
 		
+		System.out.println("c is a very large number: ");
+		System.out.println(c);
 		
 	}
 
