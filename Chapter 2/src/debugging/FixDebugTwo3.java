@@ -10,6 +10,7 @@ public class FixDebugTwo3 {
 		result = a % b;
 		
 		System.out.println("Divide " + a + " by " + b);
+		System.out.println("The remainder is " + result);
 		
 		
 	}
