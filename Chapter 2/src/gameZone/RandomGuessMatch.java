@@ -23,6 +23,8 @@ public class RandomGuessMatch {
 		}
 		
 		if (Guess!=randomInt) {
+			System.out.println("You got it wrong. The number is " + randomInt + ".");
+		}
 	}
 
 }
